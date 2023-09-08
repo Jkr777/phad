@@ -1,8 +1,11 @@
+// https://phad.vercel.app/
 
-export default function Home() {
+function Home() {
   return (
     <div className="h-10">
       PHAD dev
     </div>
   );
 }
+
+export default Home;
