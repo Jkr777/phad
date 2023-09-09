@@ -1,0 +1,24 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: var(--color-0);
+}
+
+.nav { 
+  position: relative;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  margin: 0 8rem;
+}
+
+
+/* .nav__small-menu {
+  display: none;
+  color: $color2;
+} */
