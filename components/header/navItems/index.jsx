@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import Link from "next/link";
 import { checkLanguage } from "@/utils/utils";
 
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import classes from "./navItems.module.css";
 import en from "@/locales/components/header/en";
 
