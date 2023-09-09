@@ -11,8 +11,18 @@
   margin: 0;
 
   --color-0: #050C0F;
+  --color-1: #D4E7EC;
 
   --size-txt: 1.6rem;
+
+  --distance-0: 2rem;
+  --distance-1: 1.5rem;
+  --distance-2: 3rem;
+  --distance-3: .5rem;
+}
+
+body {
+  font-size: 1.6rem;
 }
 
 a {

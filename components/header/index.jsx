@@ -11,10 +11,6 @@ import Logo from "../../public/logo.png";
 function Header() {
   const router = useRouter();
 
-  const [clicked, handleClick] = useState({
-    nav: false
-  });
-
   return (
     <>
     <header className={classes.header}>
