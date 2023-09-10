@@ -1,7 +1,10 @@
+import Nav from "./nav";
+
 function Footer() {
   return (
     <footer>
-      Footer
+      <Nav />
+      <span>© 2023 - Phad</span>
     </footer>
   );
 }

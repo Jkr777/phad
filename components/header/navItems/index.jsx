@@ -18,6 +18,7 @@ function NavItems({ path }) {
       <Link href="/parteners" className={path === "/parteners" ? classes['link--active'] : classes.link}>{txt.parteners}</Link>
       <Link href="/resource" className={path === "/resource" ? classes['link--active'] : classes.link}>{txt.resource}</Link>
       <Link href="/contact" className={path === "/contact" ? classes['link--active'] : classes.link}>{txt.contact}</Link>
+      <span className={classes.contactPhone}>+39 0625399148</span>
     </div>
   );
 }
