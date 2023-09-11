@@ -4,22 +4,17 @@ import classes from "./nav.module.css";
 function Nav({ txt }) {
   return (
     <nav className={classes.nav}>
-      <div>
-        <div>
-          <span>{txt.company}</span>
-          <div>
-            <Link hef="/about">{txt.about}</Link>
-            <Link hef="/investors">{txt.investors}</Link>
-            <Link hef="/contact">{txt.contact}</Link>
-          </div>
+      <div className={classes.navItems}>
+        <div className={classes.navItem}>
+          <span className={classes.navItemTitle}>{txt.company}</span>
+          <Link className={classes.link} href="/about">{txt.about}</Link>
+          <Link className={classes.link} href="/contact">{txt.contact}</Link>
         </div>
 
-        <div>
-          <span>{txt.legal}</span>
-          <div>
-            <Link hef="/terms">{txt.terms}</Link>
-            <Link hef="/privacy">{txt.privacy}</Link>
-          </div>
+        <div className={classes.navItem}>
+          <span className={classes.navItemTitle}>{txt.legal}</span>
+            <Link className={classes.link} href="/terms">{txt.terms}</Link>
+            <Link className={classes.link} href="/privacy">{txt.privacy}</Link>
         </div>
       </div>
       <select className={classes.langSelect}>

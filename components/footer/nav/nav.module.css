@@ -6,6 +6,33 @@
   padding: 1rem 8rem;
 }
 
+.navItems {
+  display: flex;
+}
+
+.navItem {
+  margin-right: 2rem;
+  display:  flex;
+  flex-direction: column;
+}
+
+.navItemTitle {
+  font-weight: bold;
+  font-size: var(--size-sub-title2);
+}
+
+.link {
+  color: var(--color-1);
+  cursor: pointer;
+  border-bottom: solid transparent .1rem;
+  /* display: inline-block; */
+  transition: all .2s;
+}
+
+.link:hover {
+  border-bottom: solid var(--color-1) .1rem;
+}
+
 .langSelect {
   background-color: var(--color-0);
 }
