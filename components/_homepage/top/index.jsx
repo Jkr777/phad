@@ -1,11 +1,14 @@
-function Top() {
-  return (
-    <section>
-      <h1>WE TRANSFORM TODAY‘S AMBITIOUS IDEAS INTO  TOMORROW’S SOLUTIONS</h1>
-      
-      <h2>PHAD SUPPORTS THE CUSTOMERS DELIVERY TEAM WITH FULL TIME EQUIVALENT MANAGERS, ENGINEERS, AND TECHNICIANS FOR THE ENTIRE DURATION OF THE PROJECT</h2>
+import classes from "./top.module.css";
+import btn from "@/styles/btns.module.css";
 
-      <button>LEARN MORE</button>
+function Top({ txt }) {
+  return (
+    <section className={classes.container}>
+      <h1 className={classes.title}>{txt.title}</h1>
+      
+      <h2 className={classes.subtitle}>{txt.subTitle}</h2>
+
+      <button className={btn.btn}>{txt.btn}</button>
     </section>
   );
 }

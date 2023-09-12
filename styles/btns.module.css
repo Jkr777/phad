@@ -1,0 +1,15 @@
+.btn {
+  background-color: var(--color-3);
+  padding: var(--distance-3);
+  color: var(--color-1);
+  width: 14rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5rem;
+  transition: all .3s;
+}
+
+.btn:hover {
+  background-color: var(--color-3);
+}
