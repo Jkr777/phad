@@ -1,9 +1,9 @@
-.nav{
+.nav {
   color: var(--color-1);
   background-color: var(--color-0);
   display: flex;
   justify-content: space-between;
-  padding: 1rem 8rem;
+  padding: 2rem 8rem;
 }
 
 .navItems {
