@@ -8,7 +8,7 @@ function Layout({ children }) {
     <>
       <Header />
       <main className={classes.main}>{children}</main>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }

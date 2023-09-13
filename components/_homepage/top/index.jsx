@@ -1,5 +1,7 @@
 import classes from "./top.module.css";
+import reClass from "@/styles/reusable.module.css";
 import btn from "@/styles/btns.module.css";
+
 
 function Top({ txt }) {
   return (
@@ -8,7 +10,7 @@ function Top({ txt }) {
       
       <h2 className={classes.subtitle}>{txt.subTitle}</h2>
 
-      <button className={btn.btn}>{txt.btn}</button>
+      <button className={`${btn.btn} ${reClass.topMargin3}`}>{txt.btn}</button>
     </section>
   );
 }
