@@ -1,3 +1,7 @@
+.container {
+  position: relative;
+}
+
 .footer {
   display: inline-block;
   padding: var(--distance-1) 8rem;

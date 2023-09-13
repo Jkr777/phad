@@ -13,7 +13,7 @@ function Footer() {
   const txt = checkLanguage(locale, en);
 
   return (
-    <footer>
+    <footer className={classes.container}>
       <Nav txt={txt} />
       <span className={classes.footer}>© 2023 - Phad</span>
     </footer>

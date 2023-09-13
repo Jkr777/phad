@@ -16,7 +16,7 @@ function Home() {
   const txt = checkLanguage(locale, en);
 
   return (
-    <div className="h-10">
+    <div>
       <Top txt={txt} />
       <Services txt={txt} />
       <News txt={txt} />

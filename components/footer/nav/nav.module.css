@@ -35,4 +35,5 @@
 
 .langSelect {
   background-color: var(--color-0);
+  height: 100%;
 }
