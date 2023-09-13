@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  margin-bottom: 3rem;
+  padding: 0 8rem;
+}
+
+.info {
+  width: 50%;
+  background-color: var(--color-2);
+  color: var(--color-1);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: var(--distance-1);
+}
+
+.infoTitle {
+  align-self: center;
+  font-size: var(--size-sub-title);
+  margin-bottom: var(--distance-0);
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.img {
+  width: 50%;
+  position: relative;
+}

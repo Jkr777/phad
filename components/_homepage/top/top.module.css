@@ -12,7 +12,7 @@
     to right bottom, 
     rgba(8, 18, 30, .4), 
     rgba(8, 18, 30, .7)), url('../../../public/images/topImg.jpg');
-  height: 50rem;
+  height: 45rem;
   margin-bottom: 3rem;
 }
 
@@ -27,5 +27,4 @@
   font-size: var(--size-sub-title);
   margin-bottom: var(--distance-1);
   text-align: center;
-
 }
