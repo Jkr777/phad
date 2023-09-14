@@ -14,7 +14,6 @@
   display: inline-block;
 }
 
-
 .link:hover {
   border-bottom: solid var(--color-1) .1rem;
 }

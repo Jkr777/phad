@@ -1,0 +1,15 @@
+.container {
+  margin-bottom: 3rem;
+  padding: 0 8rem;
+  color: var(--color-0);
+}
+
+.newsTitle {
+  font-size: var(--size-sub-title);
+  margin-bottom: var(--distance-0);
+  font-weight: bold;
+} 
+
+.newsP {
+  margin-bottom: var(--distance-1);
+}

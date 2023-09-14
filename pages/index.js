@@ -18,8 +18,8 @@ function Home() {
   return (
     <div>
       <Top txt={txt} />
-      <Services txt={txt} />
       <News txt={txt} />
+      <Services txt={txt} />
       <Connect txt={txt} />
     </div>
   );

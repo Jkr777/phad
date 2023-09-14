@@ -3,21 +3,18 @@ import classes from "./services.module.css";
 
 import { TbPointFilled } from "react-icons/tb";
 
-function Services() {
+function Services({ txt }) {
   return (
     <section className={classes.container}>
       <div className={classes.info}>
-        <h2 className={classes.infoTitle}>OUR SERVICES</h2>
-        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} /> ICT solutions</span>
-        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} /> Telecommunications
-systems/infrastructure</span>
-        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} /> PLC/Scada automation solutions</span>
-        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} /> Radio Network Planning</span>
-        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} /> Optimization and Performance
-Engineering</span>
-        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} /> Quality of Service management</span>
-        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} /> Logistics</span>
-
+        <h2 className={classes.infoTitle}>{txt.servicesTitle}</h2>
+        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} />{txt.option1}</span>
+        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} /> {txt.option2}</span>
+        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} />{txt.option3}</span>
+        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} />{txt.option4}</span>
+        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} />{txt.option5}</span>
+        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} />{txt.option6}</span>
+        <span className={classes.infoItem}><TbPointFilled style={{marginRight: "5px"}} />{txt.option7}</span>
       </div>
       <div className={classes.img}>
         <Image 

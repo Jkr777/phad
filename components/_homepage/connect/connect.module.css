@@ -1,0 +1,21 @@
+.container { 
+  margin-bottom: var(--distance-2);
+  margin-bottom: 3rem;
+  padding: 5rem 8rem;
+}
+
+.title {
+  font-size: var(--size-sub-title);
+  font-weight: bold;
+  color: var(--color-0);
+  margin-bottom: var(--distance-0);
+}
+
+.connectLink {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: var(--color-2);
+  border-bottom: solid transparent .1rem;
+  transition: all .2s;
+}
