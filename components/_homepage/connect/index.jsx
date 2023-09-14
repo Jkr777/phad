@@ -9,8 +9,7 @@ function Connect({ txt }) {
     <section className={classes.container}>
       <h2 className={classes.title}>{txt.connectTitle}</h2>
       <div className={classes.connectLink}>
-        <Link href="/contact">{txt.connectLink}</Link>
-        <BsArrowRight style={{marginLeft: "10px"}}/>
+        <Link className={classes.connectLink} href="/contact">{txt.connectLink} <BsArrowRight style={{marginLeft: "10px"}}/></Link>
       </div>
     </section>
   );

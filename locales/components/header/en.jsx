@@ -1,6 +1,6 @@
 export default {
   contact: "Contact Us",
-  parteners: "Parteners",
+  parteners: "Partners",
   resource: "Resource",
   services: "Services",
 }

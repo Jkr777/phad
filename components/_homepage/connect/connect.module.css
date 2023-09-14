@@ -14,7 +14,6 @@
 .connectLink {
   display: flex;
   align-items: center;
-  width: 100%;
   color: var(--color-2);
   border-bottom: solid transparent .1rem;
   transition: all .2s;
