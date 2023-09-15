@@ -12,4 +12,6 @@
 
 .newsP {
   margin-bottom: var(--distance-1);
+  padding-bottom: .5rem;
+  border-bottom: solid .2rem #757575;
 }
