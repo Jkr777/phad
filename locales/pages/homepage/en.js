@@ -3,6 +3,19 @@ export default {
   subTitle: "PHAD SUPPORTS THE CUSTOMERS DELIVERY TEAM WITH FULL TIME EQUIVALENT MANAGERS, ENGINEERS, AND TECHNICIANS FOR THE ENTIRE DURATION OF THE PROJECT",
   btn: "LEARN MORE",
   servicesTitle:"OUR SERVICES",
+
+  title1: "Scada, internet of Things, VR & Al",
+  service1: "Enablers and platforms, Vertical solutions, Technical advisory",
+  resources1: "2 Resources",
+  dip1: "Scada Certified",
+
+  title2: "Network Engineering",
+  service2: "Network System Integration and Virtualization On Cloud, On Premise, Hybrid Infrastructure Services",
+  resources2: "2 Resources",
+  dip2: "+1 Tech certification",
+
+  title2: "Network Engineering",
+
   option1: "ICT solutions",
   option2: "Telecommunications systems/infrastructure", 
   option3: "PLC/Scada automation solutions",  

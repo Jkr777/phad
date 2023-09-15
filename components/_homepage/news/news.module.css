@@ -1,5 +1,5 @@
 .container {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   padding: 0 8rem;
   color: var(--color-0);
 }
@@ -16,4 +16,10 @@
   margin-bottom: var(--distance-1);
   padding-bottom: .5rem;
   border-bottom: solid .2rem var(--color-8);
+}
+
+.newPList {
+  color: var(--color-1);
+  background-color: var(--color-7);
+  padding: 1.5rem;
 }

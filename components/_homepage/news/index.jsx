@@ -6,7 +6,7 @@ function News({ txt }) {
       <h2 className={classes.newsTitle}>{txt.newsTitle}</h2>
       <div>
         <p className={classes.newsP}>{txt.newsIntro1}</p>
-        <p className={classes.newsP}>{txt.newsIntro2}</p>
+        <p className={`${classes.newsP} ${classes.newPList}`}>{txt.newsIntro2}</p>
         <p className={classes.newsP}>{txt.newsIntro3}</p>
       </div>
     </section>

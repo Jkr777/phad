@@ -15,6 +15,26 @@ function About() {
       <div className={reClass.containerTop}>
         <h1>{txt.title}</h1>
       </div>
+
+      <div>
+        <p>{txt.p1}</p>
+        <p>{txt.p2}</p>
+        <p>{txt.p3}</p>
+        <p>{txt.p4}</p>
+        <p>{txt.p5}</p>
+        <p>{txt.p6}</p>
+        <p>{txt.p7}</p>
+      </div>
+
+      <div>
+        <h2>{txt.subTitle}</h2>
+        <p>{txt.sP1}</p>
+        <p>{txt.sP2}</p>
+        <p>{txt.sP3}</p>
+        <p>{txt.sP4}</p>
+        <p>{txt.sP5}</p>
+        <p>{txt.sP6}</p>
+      </div>
     </section>
   );
 }
