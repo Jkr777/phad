@@ -19,3 +19,8 @@
   margin-bottom: 3rem;
   font-size: var(--size-title);
 }
+
+.sPage{
+  padding: 0 8rem;
+  margin-bottom: 3rem;
+}

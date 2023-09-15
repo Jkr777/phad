@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import { checkLanguage } from "@/utils/utils";
 
 import en from "@/locales/pages/services/en";
+import classes from "./services.module.css";
 import reClass from "@/styles/reusable.module.css";
 
 function Services() {
@@ -16,12 +17,12 @@ function Services() {
         <h1>{txt.title}</h1>
       </div>
 
-      <div>
-        <p>{txt.p1}</p>
-        <p>{txt.p2}</p>
-        <p>{txt.p3}</p>
-        <p>{txt.p4}</p>
-        <p>{txt.p5}</p>
+      <div className={reClass.sPage}>
+        <p className={classes.item}>{txt.p1}</p>
+        <p className={classes.item}>{txt.p2}</p>
+        <p className={classes.item}>{txt.p3}</p>
+        <p className={classes.item}>{txt.p4}</p>
+        <p className={classes.item}>{txt.p5}</p>
       </div>
     </section>
   );
