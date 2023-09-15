@@ -1,3 +1,21 @@
 .topMargin3 {
   margin-top: var(--distance-2);
 }
+
+.containerTop {
+  display: flex;
+  align-items: center;
+  padding: 3rem 8rem;
+  color: var(--color-1);
+  margin-bottom: 3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+    to right bottom, 
+    rgba(8, 18, 30, .4), 
+    rgba(8, 18, 30, .7)), url('../public/images/topImg.jpg');
+  height: 15rem;
+  margin-bottom: 3rem;
+  font-size: var(--size-title);
+}
