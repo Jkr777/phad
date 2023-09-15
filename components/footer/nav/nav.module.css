@@ -39,3 +39,7 @@
   background-color: var(--color-0);
   height: 100%;
 }
+
+.langSelect:hover {
+  cursor: pointer;
+}
