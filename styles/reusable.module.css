@@ -13,8 +13,8 @@
   background-size: cover;
   background-image: linear-gradient(
     to right bottom, 
-    rgba(8, 18, 30, .4), 
-    rgba(8, 18, 30, .7)), url('../public/images/topImg.jpg');
+    rgba(20, 20, 20, .4), 
+    rgba(20, 20, 20, .7)), url('../public/images/topImg.jpg');
   height: 15rem;
   margin-bottom: 3rem;
   font-size: var(--size-title);

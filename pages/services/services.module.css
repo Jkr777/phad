@@ -4,3 +4,9 @@
   padding-bottom: .5rem;
   border-bottom: solid .2rem var(--color-8);
 }
+
+.newPitem {
+  color: var(--color-1);
+  background-color: var(--color-7);
+  padding: 1.5rem;
+}

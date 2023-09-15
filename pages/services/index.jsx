@@ -19,9 +19,9 @@ function Services() {
 
       <div className={reClass.sPage}>
         <p className={classes.item}>{txt.p1}</p>
-        <p className={classes.item}>{txt.p2}</p>
+        <p className={`${classes.item} ${classes.newPitem}`}>{txt.p2}</p>
         <p className={classes.item}>{txt.p3}</p>
-        <p className={classes.item}>{txt.p4}</p>
+        <p className={`${classes.item} ${classes.newPitem}`}>{txt.p4}</p>
         <p className={classes.item}>{txt.p5}</p>
       </div>
     </section>
