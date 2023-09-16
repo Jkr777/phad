@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import { checkLanguage } from "@/utils/utils";
+import Image from "next/image";
 
 import en from "@/locales/pages/services/en";
 import classes from "./services.module.css";
@@ -23,6 +24,13 @@ function Services() {
         <p className={classes.item}>{txt.p3}</p>
         <p className={`${classes.item} ${classes.newPitem}`}>{txt.p4}</p>
         <p className={classes.item}>{txt.p5}</p>
+
+        {/* <Image 
+          alt="services"
+          src="/images/services.png"
+          width={500}
+          height={500}
+        /> */}
       </div>
     </section>
   );
