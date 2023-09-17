@@ -1,8 +1,11 @@
 import { useRouter } from 'next/router';
 import { checkLanguage } from "@/utils/utils";
+import Image from "next/image";
 
 import en from "@/locales/pages/aboutUs/en";
 import reClass from "@/styles/reusable.module.css";
+import servicesClass from "@/pages/services/services.module.css";
+import classes from "./about.module.css";
 
 function About() {
   const router = useRouter();
@@ -16,24 +19,33 @@ function About() {
         <h1>{txt.title}</h1>
       </div>
 
-      <div>
-        <p>{txt.p1}</p>
-        <p>{txt.p2}</p>
-        <p>{txt.p3}</p>
-        <p>{txt.p4}</p>
-        <p>{txt.p5}</p>
-        <p>{txt.p6}</p>
-        <p>{txt.p7}</p>
+      <div className={reClass.sPage}>
+        <p className={servicesClass.item}>{txt.p1}</p>
+        <p className={`${servicesClass.item} ${servicesClass.newPitem}`}>{txt.p2}</p>
+        <p className={servicesClass.item}>{txt.p3}</p>
+        <p className={`${servicesClass.item} ${servicesClass.newPitem}`}>{txt.p4}</p>
+        <p className={servicesClass.item}>{txt.p5}</p>
+        <p className={`${servicesClass.item} ${servicesClass.newPitem}`}>{txt.p6}</p>
+        <p className={servicesClass.item}>{txt.p7}</p>
       </div>
 
-      <div>
-        <h2>{txt.subTitle}</h2>
-        <p>{txt.sP1}</p>
-        <p>{txt.sP2}</p>
-        <p>{txt.sP3}</p>
-        <p>{txt.sP4}</p>
-        <p>{txt.sP5}</p>
-        <p>{txt.sP6}</p>
+      <div className={classes.imgCont}>
+        <Image 
+          src="/images/aboutUs.png"
+          width={500}
+          height={500}
+          alt="About us"
+        />
+      </div>
+
+      <div className={reClass.sPage}>
+        <h2 className={classes.vis}>{txt.subTitle}</h2>
+        <p className={servicesClass.item}>{txt.sP1}</p>
+        <p className={`${servicesClass.item} ${servicesClass.newPitem}`}>{txt.sP2}</p>
+        <p className={servicesClass.item}>{txt.sP3}</p>
+        <p className={`${servicesClass.item} ${servicesClass.newPitem}`}>{txt.sP4}</p>
+        <p className={servicesClass.item}>{txt.sP5}</p>
+        <p className={`${servicesClass.item} ${servicesClass.newPitem}`}>{txt.sP6}</p>
       </div>
     </section>
   );
