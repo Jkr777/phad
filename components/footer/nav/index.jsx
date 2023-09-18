@@ -18,7 +18,7 @@ function Nav({ txt }) {
         </div>
       </div>
       <select className={classes.langSelect}>
-        <option value="" disabled selected hidden>{txt.changeLang}</option>
+        <option defaultValue={txt.changeLang} hidden>{txt.changeLang}</option>
         <option value="en">{txt.en}</option>
         <option value="it">{txt.it}</option>
         <option value="ro">{txt.ro}</option>

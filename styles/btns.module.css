@@ -1,5 +1,5 @@
 .btn {
-  background-color: var(--color-3);
+  background-color: var(--color-4);
   padding: var(--distance-3);
   color: var(--color-1);
   width: 14rem;
@@ -11,5 +11,21 @@
 }
 
 .btn:hover {
-  background-color: var(--color-4);
+  background-color: var(--color-3);
+}
+
+.btnContact {
+  background-color: var(--color-6);
+  padding: var(--distance-3);
+  color: var(--color-1);
+  width: 14rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5rem;
+  transition: all .3s;
+}
+
+.btnContact:hover {
+  background-color: var(--color-5);
 }
