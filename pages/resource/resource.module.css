@@ -1,0 +1,21 @@
+.subTitle {
+  font-weight: bold;
+  font-size: var(--size-sub-title2);
+  margin-bottom: 2rem;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 1.5rem;
+  align-items: center;
+  color: var(--color-7);
+}
+
+.item2 {
+  display: flex;
+  align-items: center;
+  color: var(--color-1);
+  background-color: var(--color-7);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+} 
