@@ -1,0 +1,19 @@
+.subTitle {
+  font-size: var(--size-sub-title2);
+  color: var(--color-7);
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.part {
+  color: var(--color-7);
+  margin-bottom: 2rem;
+  padding-bottom: .5rem;
+  border-bottom: .2rem solid var(--color-8);
+}
+
+.partTitle {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}

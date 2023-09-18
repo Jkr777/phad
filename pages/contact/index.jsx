@@ -87,6 +87,7 @@ function Contact() {
             />
 
           <button className={btnClass.btnContact}>{txt.btn}</button>
+          <span className={classes.privacy}>{txt.privacy}</span>
         </form>
         </div>
         <Map />

@@ -7,6 +7,8 @@ export default {
   lastName: "Last Name",
   email: "Email",
   mess: "Insert your message",
-  btn: "Submit Now"
+  btn: "Submit Now",
+
+  privacy: "By clicking 'Submit Now' you agree to our Privacy Statement"
 
 }
