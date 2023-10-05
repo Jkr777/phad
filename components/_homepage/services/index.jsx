@@ -9,7 +9,7 @@ import { IoIosSchool } from "react-icons/io";
 function Services({ txt }) {
   return (
     <section className={classes.container}>
-      <h2 className={classes.infoTitle}>{txt.servicesTitle}</h2>
+      {/* <h2 className={classes.infoTitle}>{txt.servicesTitle}</h2> */}
 
       <div className={classes.miniContainer}>
       <div className={classes.info}>

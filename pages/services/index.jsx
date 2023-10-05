@@ -2,7 +2,9 @@ import { useRouter } from 'next/router';
 import { checkLanguage } from "@/utils/utils";
 import Image from "next/image";
 
+import ServicesComp from "@/components/_homepage/services";
 import en from "@/locales/pages/services/en";
+
 import classes from "./services.module.css";
 import reClass from "@/styles/reusable.module.css";
 
@@ -19,11 +21,12 @@ function Services() {
       </div>
 
       <div className={reClass.sPage}>
-        <p className={classes.item}>{txt.p1}</p>
+        <ServicesComp txt={txt} />
+        {/* <p className={classes.item}>{txt.p1}</p>
         <p className={`${classes.item} ${classes.newPitem}`}>{txt.p2}</p>
-        <p className={classes.item}>{txt.p3}</p>
-        <p className={`${classes.item} ${classes.newPitem}`}>{txt.p4}</p>
-        <p className={classes.item}>{txt.p5}</p>
+        <p className={classes.item}>{txt.p3}</p> */}
+        <p className={reClass.pStyle}>{txt.p4}</p>
+        <p className={reClass.pStyle}>{txt.p5}</p>
 
         {/* <Image 
           alt="services"

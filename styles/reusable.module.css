@@ -2,6 +2,13 @@
   margin-top: var(--distance-2);
 }
 
+.pStyle {
+  color: var(--color-7);
+  margin-bottom: var(--distance-1);
+  padding-bottom: .5rem;
+  border-bottom: solid .2rem var(--color-8);
+}
+
 .containerTop {
   display: flex;
   align-items: center;

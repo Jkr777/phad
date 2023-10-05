@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { checkLanguage } from "@/utils/utils";
 
 import Top from "@/components/_homepage/top";
-import Services from "@/components/_homepage/services";
+// import Services from "@/components/_homepage/services";
 import News from "@/components/_homepage/news";
 import Connect from "@/components/_homepage/connect";
 
@@ -19,7 +19,7 @@ function Home() {
     <div>
       <Top txt={txt} />
       <News txt={txt} />
-      <Services txt={txt} />
+      {/* <Services txt={txt} /> */}
       <Connect txt={txt} />
     </div>
   );

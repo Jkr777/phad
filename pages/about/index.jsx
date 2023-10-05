@@ -20,13 +20,12 @@ function About() {
       </div>
 
       <div className={reClass.sPage}>
-        <p className={servicesClass.item}>{txt.p1}</p>
-        <p className={`${servicesClass.item} ${servicesClass.newPitem}`}>{txt.p2}</p>
-        <p className={servicesClass.item}>{txt.p3}</p>
-        <p className={`${servicesClass.item} ${servicesClass.newPitem}`}>{txt.p4}</p>
-        <p className={servicesClass.item}>{txt.p5}</p>
-        <p className={`${servicesClass.item} ${servicesClass.newPitem}`}>{txt.p6}</p>
-        <p className={servicesClass.item}>{txt.p7}</p>
+        <p className={reClass.pStyle}>{txt.p1}</p>
+        <p className={reClass.pStyle}>{txt.p2}</p>
+        <p className={reClass.pStyle}>{txt.p3}</p>
+        <p className={reClass.pStyle}>{txt.p5}</p>
+        <p className={reClass.pStyle}>{txt.p6}</p>
+        <p className={reClass.pStyle}>{txt.p7}</p>
       </div>
 
       <div className={classes.imgCont}>
@@ -40,12 +39,11 @@ function About() {
 
       <div className={reClass.sPage}>
         <h2 className={classes.vis}>{txt.subTitle}</h2>
-        <p className={servicesClass.item}>{txt.sP1}</p>
-        <p className={`${servicesClass.item} ${servicesClass.newPitem}`}>{txt.sP2}</p>
-        <p className={servicesClass.item}>{txt.sP3}</p>
-        <p className={`${servicesClass.item} ${servicesClass.newPitem}`}>{txt.sP4}</p>
-        <p className={servicesClass.item}>{txt.sP5}</p>
-        <p className={`${servicesClass.item} ${servicesClass.newPitem}`}>{txt.sP6}</p>
+        <p className={reClass.pStyle}>{txt.sP1}</p>
+        <p className={reClass.pStyle}>{txt.sP2}</p>
+        <p className={reClass.pStyle}>{txt.sP3}</p>
+        <p className={reClass.pStyle}>{txt.sP5}</p>
+        <p className={reClass.pStyle}>{txt.sP6}</p>
       </div>
     </section>
   );

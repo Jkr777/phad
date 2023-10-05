@@ -1,6 +1,18 @@
 export default {
   title: "Services",
 
+  servicesTitle:"OUR SERVICES",
+
+  title1: "Scada, internet of Things, VR & Al",
+  service1: "Enablers and platforms, Vertical solutions, Technical advisory",
+  resources1: "2 Resources",
+  dip1: "Scada Certified",
+
+  title2: "Network Engineering",
+  service2: "Network System Integration and Virtualization On Cloud, On Premise, Hybrid Infrastructure Services",
+  resources2: "2 Resources",
+  dip2: "+1 Tech certification",
+
   p1: "PHAD is a young company founded in 2017 with the mission of supporting enterprise companies with specialist technicians who need to implement ICT solutions aimed at accelerating their business towards their customers and/or users.",
   p2: "PHAD can offer technical skills with in-depth knowledge of the market in which OEM/Transportation and Utilities companies operate which require specialist support to implement telecommunications systems/infrastructure and innovative PLC/Scada automation solutions to enable IT platforms to make faster decisions relating to their business.",
   p3: "The specialized consulting services offered by PHAD are intended to be dynamic and scalable and vary from specific short-term projects, to solutions based on performance objectives, up to complete outsourcing (tasks).",
