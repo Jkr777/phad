@@ -18,7 +18,7 @@ export default {
   p7: "Phad has built its service approach to be flexible and quickly and efficiently meet the tasks required to meet therequirements, timeline, and allocated budget. Phad has developed this project approach to quickly adapt tochanging circumstances, and looks forward to providing a fully compliant, integrated communications system aspart of a successful project",
 
   subTitle: "Vision",
-  sP1: "The current Transportation vertical market is figuring out several solution bringing high value to the passangers and  minimise the environmental impact.",
+  sP1: "The current Transportation vertical market is figuring out several solution bringing high value to the passangers and  minimise the environmental impact.",
   sP2: "The digital transformation, successful convergence of Information and operational technology IT/OT,convergence processes and organizations is impacting deeply the railway market which had often been reluctant to in the pursue innovation putting safety and security aspects first and foremost.",
   sP3: "There is a clear path to follow putting in place new technologies and realizing integrated holistic approach way without compromising reliability of the railways’ infrastructure to reduce the number of incidents that cause disruption or safety issues.",
   sP5: "For Rolling Stock and Signalling companies the Telecom infrastructures, IT platform and Security Systems those non-core activities that change quickly and therefore there are large space available for qualified company to lead technology needs along the entire customers’ innovation and implementation journey.",

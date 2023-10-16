@@ -24,7 +24,20 @@ function About() {
         <p className={reClass.pStyle}>{txt.p2}</p>
         <p className={reClass.pStyle}>{txt.p3}</p>
         <p className={reClass.pStyle}>{txt.p5}</p>
-        <p className={reClass.pStyle}>{txt.p6}</p>
+        <p className={reClass.pStyle}>{txt.p6}
+  
+        <ul className={servicesClass.list}>
+          <li>{txt.p6l1}</li>
+          <li>{txt.p6l2}</li>
+          <li>{txt.p6l3}</li>
+          <li>{txt.p6l4}</li>
+          <li>{txt.p6l5}</li>
+          <li>{txt.p6l6}</li>
+          <li>{txt.p6l7}</li>
+          <li>{txt.p6l8}</li>
+        </ul>
+        
+        </p>
         <p className={reClass.pStyle}>{txt.p7}</p>
       </div>
 

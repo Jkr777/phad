@@ -1,7 +1,7 @@
 export default {
-  title: "Resource",
+  title: "Projects",
 
-  projects: "Projects",
+  projects: "Our Projects",
   projName1: "Commercial support to NTT DATA Industries",
   projName2: "PLC Software optimization of packing lines for Alessi",
   projName3: "Project support to NTTDATA for Ferrarelle: Mapping, migration and development of GUI of SCADA system for their needs",
