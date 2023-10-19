@@ -21,7 +21,7 @@ function Services() {
       </div>
 
       <div className={reClass.sPage}>
-        <ServicesComp txt={txt} />
+        {/* <ServicesComp txt={txt} /> */}
         {/* <p className={classes.item}>{txt.p1}</p>
         <p className={`${classes.item} ${classes.newPitem}`}>{txt.p2}</p>
         <p className={classes.item}>{txt.p3}</p> */}
