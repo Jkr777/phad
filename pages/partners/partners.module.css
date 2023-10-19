@@ -8,7 +8,7 @@
 .part {
   color: var(--color-7);
   margin-bottom: 2rem;
-  padding-bottom: .5rem;
+  padding-bottom: 1rem;
   border-bottom: .2rem solid var(--color-8);
 }
 

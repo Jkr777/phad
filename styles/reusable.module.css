@@ -1,5 +1,49 @@
+.cartList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 2rem;
+}
+
+.cart{
+  color: var(--color-7);
+  padding-bottom: 1rem;
+  border-bottom: .2rem solid var(--color-8);
+}
+
+.cartTop {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.cartBottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.cartItem {
+  color: var(--color-7);
+  margin-bottom: .5rem;
+}
+
 .topMargin3 {
   margin-top: var(--distance-2);
+}
+
+.subTitle {
+  font-weight: bold;
+  font-size: var(--size-sub-title2);
+  margin-bottom: 2rem;
+}
+
+.itemList {
+  display: flex;
+  margin-bottom: 1.5rem;
+  align-items: center;
+  color: var(--color-7);
+  padding-bottom: 1rem;
+  border-bottom: .2rem solid var(--color-8);
 }
 
 .pStyle {

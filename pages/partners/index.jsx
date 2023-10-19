@@ -20,7 +20,9 @@ function Partners() {
 
       <div className={reClass.sPage}>
         <h2 className={classes.subTitle}>{txt.subTitle}</h2>
-      
+
+        <div className={reClass.cartList}>
+
         <div className={classes.part}>
           <span className={classes.partTitle}><AiOutlineTeam style={{marginRight: "5px", fontSize: "40px", minWidth: "40px"}} /> {txt.name}</span>
           <p>{txt.info}</p>
@@ -51,7 +53,7 @@ function Partners() {
           <p>{txt.info6}</p>
         </div>
 
-
+        </div>
       </div>
     </section>
   );

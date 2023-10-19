@@ -1,7 +1,7 @@
 export default {
   title: "Services",
 
-  servicesTitle:"OUR SERVICES",
+  servicesTitle:"Our Services",
 
   title1: "Scada, internet of Things, VR & Al",
   service1: "Enablers and platforms, Vertical solutions, Technical advisory",

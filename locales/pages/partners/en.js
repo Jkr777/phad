@@ -15,9 +15,9 @@ export default {
   info4: "Logical security project support.",
 
   name5: "Engineering Services LD",
-  info5: "PLC project implementation.",  
+  info5: "IIOT project support.",  
   
-  name6: "Engineering Services LD",
+  name6: "Alessi",
   info6: "PLC project implementation.",
 
 }
