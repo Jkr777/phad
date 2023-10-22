@@ -4,6 +4,7 @@ import { checkLanguage } from "@/utils/utils";
 import Map from "@/components/_about";
 
 import en from "@/locales/pages/contactUs/en";
+import it from "@/locales/pages/contactUs/it";
 import classes from "./contact.module.css";
 import reClass from "@/styles/reusable.module.css";
 import btnClass from "@/styles/btns.module.css";
@@ -22,7 +23,7 @@ function Contact() {
   const router = useRouter();
 
   const { locale } = router;
-  const txt = checkLanguage(locale, en);
+  const txt = checkLanguage(locale, en, it);
 
   return (
     <section>

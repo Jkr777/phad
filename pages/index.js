@@ -8,12 +8,13 @@ import News from "@/components/_homepage/news";
 import Connect from "@/components/_homepage/connect";
 
 import en from "@/locales/pages/homepage/en";
+import it from "@/locales/pages/homepage/it";
 
 function Home() {
   const router = useRouter();
 
   const { locale } = router;
-  const txt = checkLanguage(locale, en);
+  const txt = checkLanguage(locale, en, it);
 
   return (
     <div>

@@ -5,12 +5,13 @@ import { checkLanguage } from "@/utils/utils";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import classes from "./navItems.module.css";
 import en from "@/locales/components/header/en";
+import it from "@/locales/components/header/it";
 
 function NavItems({ path }) {
   const router = useRouter();
 
   const { locale } = router;
-  const txt = checkLanguage(locale, en);
+  const txt = checkLanguage(locale, en, it);
 
   return (
     <div>

@@ -1,0 +1,26 @@
+export default {
+  title: "Chi siamo",
+
+  p1:"Phad è una compagnia fondata nel 2017 da due ingegneri di telecomunicazioni con oltre 20 anni di esperienza nel campo della fornitura di servizi di telecomunicazioni e industrie strategiche.",
+  p2:"Sin dall’inizio la compagnia ha portato servizi ITC di alto livello e qualità al cliente.",
+  p3: "All’inizio del 2022 Phad ha iniziato ad espandersi nei servizi ICT alle imprese nell’integrazione di sistemi EPC, attraverso un adeguati project management e ingegneria di sistemi, per aumentare le vendite e la produttività su progetti a scala medio-grande per servizi multinazionali",
+  p4:"In base allo specifico obiettivo del Progetto, Phad forniscesupporto a tempo pieno al team di consegna del cliente con managers, ingegneri e tecnici per tutte la durata del piano.",
+  p5: "Per alcuni progetti Phad suggerisce la possibilità di utilizzare un approccio a tasks per alleviare il carico del cliente.",
+  p6: "Al fine di poter attingere a risorse specializzate e mantenere allo stesso tempo I costi di progetto, Phad utilizza risorse presenti nelle aziende partner per completare le attività, dei membri centrali saranno responsabili del programma di gestione dei deliverables. Risorse specializzate saranno disposte a viaggiare in sito per poter effettuare modifiche e/o riunione con i clienti, ma principalmente le attività verranno effettuate negli uffici a Roma.",
+  p6l1: "RF Wireless design engineer",
+  p6l2: "TLC Network design engineer",
+  p6l3: "Certain system design engineers",
+  p6l4: "OSS network management INMS and asset management MMIS",
+  p6l5: "Scada platform",
+  p6l6: "Protocol adapter software developers",
+  p6l7: "Project accountant",
+  p6l8: "Sub-contract administrator",
+  p7: "Le nostre risorse si occuperanno inoltre del design, della documentazione ingegneristica, degli sviluppi software a anche delle attività di personalizzazione.",
+
+  subTitle: "Visione",
+  sP1: "L’attuale mercato verticale dei transporti sta realizzando diverse soluzioni atte a migliorare la condizione dei passeggeri e allo stesso tempo minimizzare l’impatto ambientale.",
+  sP2: "La trasformazione digitale e la convergenza delle tecnologie di informazione e operazionali IT/OT sta impattando molto profondamente il mercato ferroviario, che è sempre stato riluttando all’innovazione tecnologica, mettendo sempre al primo posto la protezione e la sicurezza.",
+  sP3: "C’è un percorso chiaro da seguire, utilizzando le nuove tecnologie e realizzando un approccio olistico integrato senza compromettere l’affidabilità delle infrastrutture ferroviarie ma allo stesso tempo ridurre il numero di incidenti che causano danni e problemi di sicurezza.",
+  sP5: "Per i veicoli ferroviari e le compagnie di segnalazione, le infrastrutture di telecomunicazioni, i sistemi di sicurezza e le piattaforme IT cambiano rapidamente, pertanto vi è un grande spazio per compagnie qualificate che possono guidare il cliente attraverso questo viaggio di innovazione ed implementazione.",
+  sP6: "In molte compagnie la convergenza IT/OT non è un problema. La vera sfida è superare i problemi culturali e di governance, difficile da prendere nel verso giusto. Con un numero così grande di stakeholders nel mercato, con diverse motivazioni, culture o obiettivi di competizione, il primo obiettivo è quello di identificare il ruolo di ognuno, e verificare che dovrà prendersi le responsabilità e chi il merito dei processi critici. Per far ciò occorre avere risorse in grado di creare dei team multidisciplinari che hanno in comune obiettivi e motivazioni, e trovare un linguaggio comune tra questi due mondi. Oltretutto, anche far collaborare diverse funzioni di impresa è un punto critico. Per far sì che questi collaborino, è necessario avere a mente e rispettare le preoccupazioni di entrambi. Ad esempio, la sicurezza IT crede che verrà impattata molto pesantemente dall’ambiente OT, che considerano “il wild west della sicurezza”, mentre l’OT ritiene che i team di sicurezza IT fermeranno le loro operazioni, causando conseguenze finanziare, reputazionali, di saluti e sicurezza. Pertanto, la convergenza IT/OT deve essere un’iniziativa di business, piuttosto che un progetto separato, e questo deve essere fatto in maniera olistica e con una base caso per caso.",
+}

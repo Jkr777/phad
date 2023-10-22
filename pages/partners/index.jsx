@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import { checkLanguage } from "@/utils/utils";
 
 import en from "@/locales/pages/partners/en";
+import it from "@/locales/pages/partners/it";
 import reClass from "@/styles/reusable.module.css";
 import classes from "./partners.module.css";
 import { AiOutlineTeam } from "react-icons/ai";
@@ -10,7 +11,7 @@ function Partners() {
   const router = useRouter();
 
   const { locale } = router;
-  const txt = checkLanguage(locale, en);
+  const txt = checkLanguage(locale, en, it);
 
   return (
     <section>

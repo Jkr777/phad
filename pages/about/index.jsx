@@ -3,6 +3,7 @@ import { checkLanguage } from "@/utils/utils";
 import Image from "next/image";
 
 import en from "@/locales/pages/aboutUs/en";
+import it from "@/locales/pages/aboutUs/it";
 import reClass from "@/styles/reusable.module.css";
 import servicesClass from "@/pages/services/services.module.css";
 import classes from "./about.module.css";
@@ -11,7 +12,7 @@ function About() {
   const router = useRouter();
 
   const { locale } = router;
-  const txt = checkLanguage(locale, en);
+  const txt = checkLanguage(locale, en, it);
 
   return (
     <section>
@@ -26,7 +27,7 @@ function About() {
         <p className={reClass.pStyle}>{txt.p5}</p>
         <p className={reClass.pStyle}>{txt.p6}
   
-        <ul className={servicesClass.list}>
+        {txt.p6l1 ? <ul className=  {servicesClass.list}>
           <li>{txt.p6l1}</li>
           <li>{txt.p6l2}</li>
           <li>{txt.p6l3}</li>
@@ -35,7 +36,7 @@ function About() {
           <li>{txt.p6l6}</li>
           <li>{txt.p6l7}</li>
           <li>{txt.p6l8}</li>
-        </ul>
+        </ul> : null}
         
         </p>
         <p className={reClass.pStyle}>{txt.p7}</p>

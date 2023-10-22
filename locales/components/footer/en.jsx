@@ -7,7 +7,5 @@ export default {
   terms: "Terms of Use",
   privacy: "Privacy Policy",
   changeLang: "Change Language",
-  en: "English",
   it: "Italian",
-  ro: "Romanian"
 }

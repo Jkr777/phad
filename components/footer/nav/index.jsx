@@ -1,7 +1,13 @@
 import Link from "next/link";
 import classes from "./nav.module.css";
 
-function Nav({ txt }) {
+function Nav({ txt, loc, router }) {
+
+  function changeLang(e) {
+    console.log(e.target.value)
+    router.push('/', '/', {locale: e.target.value})
+  }
+
   return (
     <nav className={classes.nav}>
       <div className={classes.navItems}>
@@ -17,11 +23,10 @@ function Nav({ txt }) {
             <Link className={classes.link} href="/privacy">{txt.privacy}</Link>
         </div>
       </div>
-      <select className={classes.langSelect}>
+      <select onChange={changeLang} className={classes.langSelect}>
         <option defaultValue={txt.changeLang} hidden>{txt.changeLang}</option>
-        <option value="en">{txt.en}</option>
-        <option value="it">{txt.it}</option>
-        <option value="ro">{txt.ro}</option>
+        {loc === "en" ? null : <option value="en">{txt.en}</option>}
+        {loc === "it" ? null : <option value="it">{txt.it}</option>}
       </select>
     </nav>
   );

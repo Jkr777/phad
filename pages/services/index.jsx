@@ -4,6 +4,7 @@ import { BsCircleFill } from "react-icons/bs";
 
 import ServicesComp from "@/components/_homepage/services";
 import en from "@/locales/pages/services/en";
+import it from "@/locales/pages/services/it";
 
 import classes from "./services.module.css";
 import reClass from "@/styles/reusable.module.css";
@@ -12,7 +13,7 @@ function Services() {
   const router = useRouter();
 
   const { locale } = router;
-  const txt = checkLanguage(locale, en);
+  const txt = checkLanguage(locale, en, it);
 
   return (
     <section>

@@ -4,6 +4,7 @@ import { checkLanguage } from "@/utils/utils";
 import { MdDone } from "react-icons/md";
 import { AiOutlineTeam } from "react-icons/ai";
 import en from "@/locales/pages/project/en";
+import it from "@/locales/pages/project/it";
 import reClass from "@/styles/reusable.module.css";
 // import classes from "./project.module.css";
 
@@ -11,7 +12,7 @@ function Project() {
   const router = useRouter();
 
   const { locale } = router;
-  const txt = checkLanguage(locale, en);
+  const txt = checkLanguage(locale, en, it);
 
   return (
     <section>
