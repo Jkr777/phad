@@ -2,7 +2,7 @@
   background-color: var(--color-4);
   padding: var(--distance-3);
   color: var(--color-1);
-  width: 14rem;
+  padding: .5rem 1rem ;
   border: none;
   cursor: pointer;
   font-weight: bold;
