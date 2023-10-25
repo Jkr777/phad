@@ -1,0 +1,13 @@
+.link {
+  color: var(--color-1);
+  margin: 0 var(--distance-0) var(--distance-0) var(--distance-0);
+  cursor: pointer;
+  border-bottom: solid transparent .1rem;
+  display: inline-block;
+  transition: all .2s;
+  text-align: center;
+}
+
+.link:hover {
+  border-bottom: solid var(--color-1) .1rem;
+}

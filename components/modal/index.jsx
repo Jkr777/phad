@@ -1,13 +1,7 @@
-// import { createPortal } from "react-dom";
+import classes from "./modal.module.css";
 
-// function Modal({ isOpen, setIsOpen, children }) {
-//   return createPortal(
-//     <section onClick={() => setIsOpen(false)}>
-//       {children}
-//     </section>
-//   ), document.getElementById("portal");
-// }
+function Modal({ isOpen, setIsOpen }) {
+  return <section className={isOpen ? classes.modalOpen : classes.modalClose } onClick={() => setIsOpen()}></section>
+}
 
-
-
-// export default Modal;
+export default Modal;

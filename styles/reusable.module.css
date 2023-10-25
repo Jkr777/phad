@@ -71,7 +71,24 @@
   font-size: var(--size-title);
 }
 
-.sPage{
+.sPage {
   padding: 0 8rem;
   margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 500px) { 
+  .cartList { 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+}
+
+@media only screen and (max-width: 560px) { 
+  .containerTop { 
+    padding: 3rem 2rem;
+  }
+
+  .sPage { 
+    padding: 0 2rem;
+  }
 }

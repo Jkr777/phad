@@ -25,3 +25,9 @@
   border-bottom: solid var(--color-1) .1rem;
   display: inline-block;
 }
+
+@media only screen and (max-width: 900px) { 
+  .container {
+    display: none;
+  }
+};

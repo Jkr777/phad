@@ -1,0 +1,15 @@
+.modalClose {
+  position: absolute;
+  display: none;
+}
+
+.modalOpen {
+  transition: all 0.2s ease-in-out;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: rgba(1, 1, 1, .6);
+  z-index: 1000;
+  top: 8rem;
+}

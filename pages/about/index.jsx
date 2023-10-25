@@ -27,7 +27,7 @@ function About() {
         <p className={reClass.pStyle}>{txt.p5}</p>
         <p className={reClass.pStyle}>{txt.p6}
   
-        {txt.p6l1 ? <ul className=  {servicesClass.list}>
+        {locale === "en" ? <ul className=  {servicesClass.list}>
           <li>{txt.p6l1}</li>
           <li>{txt.p6l2}</li>
           <li>{txt.p6l3}</li>

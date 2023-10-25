@@ -18,8 +18,41 @@
   margin: 0 8rem;
 }
 
+.sideNavOpen {
+  transition: all 0.2s ease-in-out;
+  position: fixed;
+  height: 100%;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: var(--color-0);
+  z-index: 1000;
+  top: 8rem;
+}
 
-/* .nav__small-menu {
+.sideNavClose {
+  position: absolute;
+  transform: translateX(-25rem);
   display: none;
-  color: $color2;
-} */
+}
+
+.navSmall {
+  display: block;
+}
+
+
+
+@media only screen and (max-width: 900px) { 
+  .navSmall {
+    display: block;
+    cursor: pointer;
+    color: var(--color-1);
+  }
+}
+
+@media only screen and (max-width: 560px) { 
+  .nav { 
+    margin: 0 2rem;
+  }
+}

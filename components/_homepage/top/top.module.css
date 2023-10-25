@@ -12,7 +12,7 @@
     to right bottom, 
     rgba(20, 20, 20, .4), 
     rgba(20, 20, 20, .7)), url('../../../public/images/topImg.jpg');
-  height: 45rem;
+  height: 100%;
   margin-bottom: 4rem;
 }
 
@@ -27,4 +27,21 @@
   font-size: var(--size-sub-title);
   margin-bottom: var(--distance-1);
   text-align: center;
+}
+
+@media only screen and (max-width: 780px) {
+  .title {
+    font-size: var(--size-sub-title);
+  }
+
+  .subtitle { 
+    font-size: var(--size-sub-title2);
+  }
+}
+
+
+@media only screen and (max-width: 560px) { 
+  .container { 
+    padding: 5rem 2rem;
+  }
 }

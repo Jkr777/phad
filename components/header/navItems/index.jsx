@@ -14,7 +14,7 @@ function NavItems({ path }) {
   const txt = checkLanguage(locale, en, it);
 
   return (
-    <div>
+    <div className={classes.container}>
       <Link href="/services" className={path === "/services" ? classes['link--active'] : classes.link}>{txt.services}</Link>
       <Link href="/partners" className={path === "/partners" ? classes['link--active'] : classes.link}>{txt.parteners}</Link>
       <Link href="/project" className={path === "/project" ? classes['link--active'] : classes.link}>{txt.project}</Link>

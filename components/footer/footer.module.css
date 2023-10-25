@@ -6,3 +6,8 @@
   display: inline-block;
   padding: var(--distance-1) 8rem;
 }
+
+@media only screen and (max-width: 560px) { 
+  .footer { 
+    padding: var(--distance-1) 2rem;  }
+}

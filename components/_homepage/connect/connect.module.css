@@ -18,3 +18,9 @@
   border-bottom: solid transparent .1rem;
   transition: all .2s;
 }
+
+@media only screen and (max-width: 560px) { 
+  .container { 
+    padding: 0 2rem;
+  }
+}

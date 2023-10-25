@@ -1,8 +1,8 @@
 export default {
   title: "About Us",
-
+  
   p1: "PHAD is a new Italian company born in 2017 founded by two telecom engineers with over 20 years in the Telecommunication Service Provider and Strategic Industries.",
-  p2: "Since the beginning the company bringing high-level &amp; consistent ITC service quality to the customer.",
+  p2: "Since the beginning the company bringing high-level consistent ITC service quality to the customer.",
   p3: "In early 2022 Phad has started expanding ICT service to the Enterprise/ EPC System Integrator company carrying out appropriate Project Management, System Engineer and boost Sales productivity leveraging medium-to-large scale projects of multinational projects.",
   p4: "Based on the specific scope of the project, Phad support the Customer’s delivery team with full-time equivalent managers, engineers, and technicians for the entire duration of the project.",
   p5: "For some project Phad welcomed to provide a task project approach to alleviate Customer concerns.",

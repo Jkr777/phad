@@ -29,6 +29,7 @@
   /* display: inline-block; */
   margin-bottom: .5rem;
   transition: all .2s;
+  display: inline;
 }
 
 .link:hover {
@@ -42,4 +43,26 @@
 
 .langSelect:hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 560px) { 
+  .nav { 
+    padding: 2rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 440px) { 
+  .nav  { 
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .navItems {
+    margin-bottom: 1rem;
+  }
+
+  .navItem {
+    align-items: center;
+  }
 }
