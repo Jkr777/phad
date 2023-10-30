@@ -1,6 +1,8 @@
 import { useState } from "react";
+import axios from "axios";
 import { useRouter } from 'next/router';
 import { checkLanguage } from "@/utils/utils";
+import { toast } from 'react-toastify';
 import Map from "@/components/_about";
 
 import en from "@/locales/pages/contactUs/en";
@@ -25,6 +27,35 @@ function Contact() {
   const { locale } = router;
   const txt = checkLanguage(locale, en, it);
 
+  async function handleSubmitFn() {
+    try {
+      await axios.post('/api/contact', data);
+
+      toast.info(txt.successMess, { position: toast.POSITION.TOP_RIGHT });
+    } catch {
+      toast.error(txt.errMess, { position: toast.POSITION.TOP_RIGHT });
+    }
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    if(!data.mess) {
+      toast.error(txt.errMessData, { position: toast.POSITION.TOP_RIGHT });
+
+      return;
+    }
+
+    handleSubmitFn();
+
+    setData({
+      firstName: "",
+      lastName: "",
+      email: "",
+      mess: ""
+    });
+  }
+
   return (
     <section>
       <div className={reClass.containerTop}>
@@ -34,14 +65,14 @@ function Contact() {
       <div className={reClass.sPage}>        
         <div className={classes.formCenter}>
 
-        <form className={formClass.form}>
+        <form className={formClass.form} onSubmit={handleSubmit}>
           <h2 className={classes.subTitle}>{txt.subTitle}</h2>
 
             <input 
               className={formClass.input}
               type="text"
               maxLength="255"
-              minLength="5"
+              minLength="2"
               required
               autoFocus
               autoComplete="firstName"
@@ -55,7 +86,7 @@ function Contact() {
               className={formClass.input}
               type="text"
               maxLength="255"
-              minLength="5"
+              minLength="2"
               required
               autoComplete="lastName"
               name="lastName"
@@ -81,7 +112,7 @@ function Contact() {
               className={formClass.txtArea}
               name="mess"
               required
-              maxLength="255"
+              maxLength="555"
               placeholder={txt.mess}
               value={data.mess}
               onChange={handleChange}

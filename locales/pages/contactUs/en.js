@@ -9,6 +9,9 @@ export default {
   mess: "Insert your message",
   btn: "Submit Now",
 
-  privacy: "By clicking 'Submit Now' you agree to our Privacy Statement"
+  privacy: "By clicking 'Submit Now' you agree to our Privacy Statement",
 
+  errMessData: "Please add a message",
+  errMess: "Something went wrong please try again",
+  successMess: "Your message was sent successfully"
 }

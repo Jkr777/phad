@@ -61,20 +61,12 @@
   }
 
   .navItems {
+    flex-direction: column;
     margin-bottom: 1rem;
   }
 
   .navItem {
     align-items: center;
-  }
-}
-
-@media only screen and (max-width: 310px) { 
-  .navItems  { 
-    flex-direction: column;
-  }
-
-  .navItem {
     margin-right: 0;
     margin-bottom: 1.5rem;
   }

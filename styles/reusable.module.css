@@ -1,3 +1,7 @@
+.marginTop {
+  margin-top: var( --distance-0);
+}
+
 .cartList {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

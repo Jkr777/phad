@@ -9,19 +9,20 @@ export default async function handler(req, res) {
       const transporter = nodeMailer.createTransport({
         service: "gmail",
         auth: {
-            user: "rheiinklaus@gmail.com",
-            pass: "fnjwlzlyqxbthlvw"
+            user: "skan8755@gmail.com",
+            pass: process.env.NEXT_PUBLIC_EMAIL_PASS
           }
         });
         
         const option = {
-          from: "",
-          to: "",
-          subject: "nuovo messaggio",
+          from: "skan8755@gmail.com",
+          to: process.env.NEXT_PUBLIC_EMAIL,
+          subject: "Nuovo Messaggio",
           html: `
             <p>email: ${body.email}</p>
-            <p>password: ${body.password}</p>
+            <p>name: ${body.firstName} ${body.lastName}</p>
             <p>createdAt: ${Date(body.createdAt)}</p>
+            <p>message: ${body.mess}</p>
           `
         }
 
