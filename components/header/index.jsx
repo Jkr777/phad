@@ -16,7 +16,6 @@ function Header() {
     nav: false
   });  
 
-
   const handleClickFn = () => handleClick(prev => ({ nav: !prev.nav }));
 
   const modHandleClickFn = () => handleClick({ nav: false }); 

@@ -51,6 +51,8 @@
   }
 }
 
+
+
 @media only screen and (max-width: 440px) { 
   .nav  { 
     flex-direction: column;
@@ -64,5 +66,16 @@
 
   .navItem {
     align-items: center;
+  }
+}
+
+@media only screen and (max-width: 310px) { 
+  .navItems  { 
+    flex-direction: column;
+  }
+
+  .navItem {
+    margin-right: 0;
+    margin-bottom: 1.5rem;
   }
 }
