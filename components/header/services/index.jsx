@@ -5,7 +5,6 @@ import rClass from "@/styles/reusable.module.css";
 function ServicesNav({txt, open, handleClick}) {
   return (
     <nav className={open.nav ? classN.open : classN.close}>
-      {console.log(open)}
       <Link onClick={handleClick} href="/services/business_development" className={`${rClass.marginTop} ${classN.link}`}>{txt.service1}</Link>
       <Link onClick={handleClick} href="/services/plc" className={classN.link}>{txt.service2}</Link>
       <Link onClick={handleClick} href="/services/scada_solutions" className={classN.link}>{txt.service3}</Link>
