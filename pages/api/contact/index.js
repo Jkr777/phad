@@ -26,13 +26,26 @@ export default async function handler(req, res) {
           `
         }
 
-        transporter.sendMail(option, function(error, info) {
-          if(error) {
-            cconsole.log(error, "error");
-          } else {
-            console.log('mail send')
-          }
-        })
+        await new Promise((resolve, reject) => {
+          // send mail
+          transporter.sendMail(option, (err, info) => {
+              if (err) {
+                  console.error(err);
+                  reject(err);
+              } else {
+                  console.log(info);
+                  resolve(info);
+              }
+          });
+      });
+
+        // transporter.sendMail(option, function(error, info) {
+        //   if(error) {
+        //     cconsole.log(error, "error");
+        //   } else {
+        //     console.log('mail send')
+        //   }
+        // })
 
       return res.status(201).send("ok");
     default:
