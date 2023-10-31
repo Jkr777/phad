@@ -16,7 +16,7 @@ export default async function handler(req, res) {
         
         const option = {
           from: "skan8755@gmail.com",
-          to: "badircea92@gmail.com",
+          to: "sales@phad.it",
           subject: "Nuovo Messaggio",
           html: `
             <p>email: ${body.email}</p>
