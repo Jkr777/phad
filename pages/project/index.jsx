@@ -35,10 +35,6 @@ function Project() {
                 <li className={reClass.cartItem}><MdDone style={{display: "inline", marginRight: "5px", fontSize: "15px", minWidth: "15px"}} />{txt.p13}</li>
                 <li className={reClass.cartItem}><MdDone style={{display: "inline", marginRight: "5px", fontSize: "15px", minWidth: "15px"}} />{txt.p14}</li>
               </ul>
-              {/* <span className={reClass.cartItem}>{txt.p11}</span>
-              <span className={reClass.cartItem}>{txt.p12}</span>
-              <span className={reClass.cartItem}>{txt.p13}</span>
-              <span className={reClass.cartItem}>{txt.p14}</span> */}
             </div>
           </div>
 

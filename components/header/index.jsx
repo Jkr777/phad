@@ -3,25 +3,37 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import NavItems from "./navItems";
 import SideNav from "./sideNav";
+import ServicesNav from "./services";
 import Modal from "../modal";
 
+import { checkLanguage } from "@/utils/utils";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import classes from "./header.module.css";
 import Image from "next/image";
 import Logo from "../../public/logo.png";
 
+import en from "@/locales/components/header/en";
+import it from "@/locales/components/header/it";
 
 function Header() {
   const [clicked, handleClick] = useState({
     nav: false
   });  
+  const [sClicked, handleSClick] = useState({
+    nav: false
+  });  
 
-  const handleClickFn = () => handleClick(prev => ({ nav: !prev.nav }));
+  const handleClickFn = () => handleClick(prev => ({ nav: !prev.nav }));  
+  
+  const handleSClickFn = () => handleSClick(prev => ({ nav: !prev.nav }));
 
   const modHandleClickFn = () => handleClick({ nav: false }); 
 
   const router = useRouter();
-   
+  
+  const { locale } = router;
+  const txt = checkLanguage(locale, en, it);
+
   return (
     <>
     <header className={classes.header}>
@@ -34,9 +46,10 @@ function Header() {
           {clicked.nav ? <AiOutlineClose /> : <AiOutlineMenu />}
         </div>
         <Modal isOpen={clicked.nav} setIsOpen={modHandleClickFn} />
-        <NavItems path={router.pathname} />
+        <NavItems path={router.pathname} txt={txt} handleClick={handleSClickFn} />
       </nav>
     </header>
+    <ServicesNav txt={txt} open={sClicked} handleClick={handleSClickFn} />
     <SideNav cssClass={clicked.nav ? classes.sideNavOpen : classes.sideNavClose} handleClick={handleClickFn} />
     </>
   );
