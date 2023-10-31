@@ -28,7 +28,7 @@ export default async function handler(req, res) {
 
         transporter.sendMail(option, function(error, info) {
           if(error) {
-            cconsole.log(error);
+            cconsole.log(error, "error");
           } else {
             console.log('mail send')
           }
