@@ -20,7 +20,7 @@ function Business() {
   return (
     <section>
       <div className={reClass.containerTop}>
-        <h1>{txt.s1}</h1>
+        <h1>{txt.s2}</h1>
       </div>
 
       <div className={reClass.sPage}>
@@ -37,7 +37,7 @@ function Business() {
 
         <div className={reClass.cartList2}>
         <div className={reClass.cart}>
-            <span className={reClass.cartTop}><AiOutlineTeam style={{marginRight: "5px", fontSize: "40px", minWidth: "40px"}} />{txt.partenerName1}</span>
+            <span className={reClass.cartTop}><AiOutlineTeam style={{marginRight: "5px", fontSize: "40px", minWidth: "40px"}} />{txt.partenerName2}</span>
 
             <div className={reClass.cartBottom}>
               <ul>
