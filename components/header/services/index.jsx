@@ -7,6 +7,7 @@ function ServicesNav({txt, open, handleClick}) {
     <nav className={open.nav ? classN.open : classN.close}>
       <Link onClick={handleClick} href="/services/business_development" className={`${rClass.marginTop} ${classN.link}`}>{txt.service1}</Link>
       <Link onClick={handleClick} href="/services/plc" className={classN.link}>{txt.service2}</Link>
+      <Link onClick={handleClick} href="/services/business_development" className={classN.link}>{txt.services1Text}</Link>
       {/* <Link onClick={handleClick} href="/services/scada_solutions" className={classN.link}>{txt.service3}</Link>
       <Link onClick={handleClick} href="/services/iiot" className={classN.link}>{txt.service4}</Link>
       <Link onClick={handleClick} href="/services/telecommunication" className={classN.link}>{txt.service5}</Link>
