@@ -23,11 +23,19 @@ function Header() {
     nav: false
   });  
 
-  const handleClickFn = () => handleClick(prev => ({ nav: !prev.nav }));  
+  const handleClickFn = () => {
+    handleSClick({ nav: false});
+    handleClick(prev => ({ nav: !prev.nav }));  
+  }
   
-  const handleSClickFn = () => handleSClick(prev => ({ nav: !prev.nav }));
+  const handleSClickFn = () => {
+    handleClick({ nav: false });  
+    handleSClick(prev => ({ nav: !prev.nav }));
+  }
 
-  const modHandleClickFn = () => handleClick({ nav: false }); 
+  const closeSubMenu = () => handleSClick({ nav: false});
+
+  const modHandleClickFn = () => handleSClick({ nav: false }); 
 
   const router = useRouter();
   
@@ -45,8 +53,8 @@ function Header() {
         <div className={classes.navSmall} onClick={handleClickFn}>
           {clicked.nav ? <AiOutlineClose /> : <AiOutlineMenu />}
         </div>
-        <Modal isOpen={clicked.nav} setIsOpen={modHandleClickFn} />
-        <NavItems path={router.pathname} txt={txt} handleClick={handleSClickFn} />
+        <Modal isOpen={sClicked.nav} setIsOpen={modHandleClickFn} />
+        <NavItems path={router.pathname} txt={txt} handleClick={handleSClickFn} closeSubMenu={closeSubMenu} open={sClicked} />
       </nav>
     </header>
     <ServicesNav txt={txt} open={sClicked} handleClick={handleSClickFn} />
@@ -56,6 +64,3 @@ function Header() {
 }
 
 export default Header;
-
-
-
