@@ -1,5 +1,5 @@
 export default {
-  title: "More info",
+  title: "Overview",
 
   servicesTitle:"Projects",
 
@@ -32,10 +32,39 @@ export default {
   s7: "Physical security CCTV",
   s8: "Cybersecurity assessment",
 
-  s1p1: "Donec varius dignissim lacinia. Nunc efficitur sollicitudin nunc id sagittis. Duis sed nunc vel velit laoreet pellentesque sit amet vel quam. Morbi non imperdiet ex. Cras tristique sapien et vehicula scelerisque. Nam commodo enim nec tellus pharetra, aliquam condimentum tellus sodales. Aenean est odio, volutpat nec tortor at, efficitur dapibus mauris. Vivamus tristique cursus dolor, a suscipit nisi fermentum id. Sed in ante turpis. Morbi et scelerisque metus. Ut sapien justo, auctor id interdum sit amet, laoreet sit amet massa.",
-  s1p2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra condimentum venenatis. Maecenas interdum scelerisque iaculis. Curabitur luctus congue interdum. Nunc nec tellus sem. Nulla in mi ut ante rhoncus eleifend et ac risus. Nunc faucibus, tellus eu pellentesque auctor, ligula libero ornare orci, sit amet maximus urna nisl nec lacus. Donec a euismod arcu. Sed ut tincidunt odio.",
+  s1t1: "Integrated Engineering Services for Rail",
+  s1p1: "We leveraged our experience of information technology, consulting, telecommunication network infrastructure, engineering, and manufacturing to help the world’s rolling stock and signaling companies build stronger businesses.",
+  s1p1p2:"Phad practice offers engineering services in various areas of rail technology, including design, development, testing, deployment and support. Our domain expertise spans: ERTMS, CBTC and asset managment.",
 
-  s2p1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra condimentum venenatis. Maecenas interdum scelerisque iaculis. Curabitur luctus congue interdum. Nunc nec tellus sem. Nulla in mi ut ante rhoncus eleifend et ac risus. Nunc faucibus, tellus eu pellentesque auctor, ligula libero ornare orci, sit amet maximus urna nisl nec lacus. Donec a euismod arcu. Sed ut tincidunt odio.",
+
+  s1t2: "ICT Mission",
+  s1ListTitle: "Phad supports the CIO challenge to ensure",
+  s1ListElement1: "Preparation and management of the ICT Business Strategy",
+  s1ListElement2: "Implementation tools for security management",
+  s1ListElement3: "Hold responsibility for the definition of telecommunications infrastructure",
+  s1ListElement4: "The development and integration of the core modernization and transformation ICT Technology systems",
+  s1ListElement5: "Consistency IT projects development with the application architecture and technology",
+  s1ListElement6: "Proposal business process improvement with implementation of new IT function and tools",
+
+  s2p1: "We design and integrate new SCADA and PLC systems using hardware and software from manufacturers like Rockwell,Allen-Bradley, Emerson, Inductive Automation/Ignition. We implement SCADA systems that enable safe, remote operations for every applicable industry, including Transportation, Oil & Gas, Energy/Utility and Water/Wastewater.",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   p4: "PHAD can rely on professionals with long and proven experience in a vast range of technologies, the result of belonging to multinational groups with a multi-year track record of leadership in the mobile telecommunications sector.",

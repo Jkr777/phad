@@ -8,7 +8,7 @@ import ServicesComp from "@/components/_homepage/services";
 import en from "@/locales/pages/services/en";
 import it from "@/locales/pages/services/it";
 
-import classes from "./services.module.css";
+import servicesClass from "./services.module.css";
 import reClass from "@/styles/reusable.module.css";
 
 function Business() {
@@ -29,10 +29,22 @@ function Business() {
         <p className={`${classes.item} ${classes.newPitem}`}>{txt.p2}</p>
         <p className={classes.item}>{txt.p3}</p> */}
 
-        <h2 className={reClass.subTitle}>{txt.title}</h2>
+        <h2 className={reClass.subTitle}>{txt.s1t1}</h2>
 
         <p className={reClass.pStyle}>{txt.s1p1}</p>
-        <p className={reClass.pStyle}>{txt.s1p2}</p>
+        <p className={reClass.pStyle}>{txt.s1p1p2}</p>
+
+        <h2 className={reClass.subTitle}>{txt.s1t2}</h2>
+
+        <span>{txt.s1ListTitle}:</span>
+        <ul className={servicesClass.list}>
+          <li>{txt.s1ListElement1}</li>
+          <li>{txt.s1ListElement2}</li>
+          <li>{txt.s1ListElement3}</li>
+          <li>{txt.s1ListElement4}</li>
+          <li>{txt.s1ListElement5}</li>
+          <li>{txt.s1ListElement6}</li>
+        </ul>
 
         <h2 className={reClass.subTitle}>{txt.servicesTitle}</h2>
 
