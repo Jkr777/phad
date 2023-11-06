@@ -26,6 +26,7 @@ function Header() {
   const handleClickFn = () => {
     handleSClick({ nav: false});
     handleClick(prev => ({ nav: !prev.nav }));  
+    console.log(sClicked);
   }
   
   const handleSClickFn = () => {
