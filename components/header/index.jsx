@@ -26,7 +26,6 @@ function Header() {
   const handleClickFn = () => {
     handleSClick({ nav: false});
     handleClick(prev => ({ nav: !prev.nav }));  
-    console.log(sClicked);
   }
   
   const handleSClickFn = () => {
@@ -55,7 +54,7 @@ function Header() {
           {clicked.nav ? <AiOutlineClose /> : <AiOutlineMenu />}
         </div>
         <Modal isOpen={sClicked.nav} setIsOpen={modHandleClickFn} />
-        <NavItems path={router.pathname} txt={txt} handleClick={handleSClickFn} closeSubMenu={closeSubMenu} open={sClicked} />
+        <NavItems path={router.pathname} txt={txt} handleClick={handleSClickFn} closeSubMenu={closeSubMenu} open={sClicked.nav} />
       </nav>
     </header>
     <ServicesNav txt={txt} open={sClicked} handleClick={handleSClickFn} />
