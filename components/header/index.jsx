@@ -47,7 +47,7 @@ function Header() {
     <>
     <header className={classes.header}>
       <nav className={classes.nav}>
-        <Link href="/">
+        <Link href="/" onClick={closeSubMenu}>
           <Image alt="logo phad" src={Logo} />
         </Link>
 
