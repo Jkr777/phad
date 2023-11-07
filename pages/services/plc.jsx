@@ -8,7 +8,7 @@ import ServicesComp from "@/components/_homepage/services";
 import en from "@/locales/pages/services/en";
 import it from "@/locales/pages/services/it";
 
-import classes from "./services.module.css";
+import servicesClass from "./services.module.css";
 import reClass from "@/styles/reusable.module.css";
 
 function Business() {
@@ -28,11 +28,12 @@ function Business() {
         {/* <p className={classes.item}>{txt.p1}</p>
         <p className={`${classes.item} ${classes.newPitem}`}>{txt.p2}</p>
         <p className={classes.item}>{txt.p3}</p> */}
+        <div className={servicesClass.infoCart}>
+          <h2 className={reClass.subTitle}>{txt.title}</h2>
 
-        <h2 className={reClass.subTitle}>{txt.title}</h2>
-
-        <p className={reClass.pStyle}>{txt.s2p1}</p>
-
+          <p className={reClass.pStyle}>{txt.s2p1}</p>
+        </div>
+        
         <h2 className={reClass.subTitle}>{txt.servicesTitle}</h2>
 
         <div className={reClass.cartList2}>

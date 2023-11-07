@@ -11,7 +11,7 @@ export default {
   p11:"Dedicate commercial support in the transportation sector",
   p12:"Technical support of migration of Scada system on a new HMI platform, with implementation of UX/UI design",
   p13:"Engineering support for Passenger Information system for mobility solutions",
-  p14:"Abu Dhabi support for L2 access switch.",
+  p14:"Abu Dhabi support for L2 access switch",
 
 
 
