@@ -25,6 +25,10 @@
   font-weight: bold;
   display: flex;
   align-items: center;
+  margin-bottom: 2rem;
+  background-color: var(--color-2);
+  color: var(--color-1);
+  padding: .5rem;
 }
 
 
