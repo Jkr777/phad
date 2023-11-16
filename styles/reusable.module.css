@@ -76,15 +76,21 @@
   background-image: linear-gradient(
     to right bottom, 
     rgba(20, 20, 20, .4), 
-    rgba(20, 20, 20, .7)), url('../public/images/topImg.jpg');
-  height: 15rem;
-  margin-bottom: 3rem;
+    rgba(20, 20, 20, .7)), url('../public/images/servicesImg.jpg');
+    min-height: 60vh;
+    margin-bottom: 3rem;
   font-size: var(--size-title);
 }
 
 .sPage {
   padding: 0 8rem;
   margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 780px) {
+  .containerTop { 
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 430px) { 
