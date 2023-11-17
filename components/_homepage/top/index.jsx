@@ -11,7 +11,7 @@ function Top({ txt }) {
       
       <h2 className={classes.subtitle}>{txt.subTitle}</h2>
 
-      <Link href="/services">
+      <Link href="/about">
         <button className={`${btn.btn} ${reClass.topMargin3}`}>{txt.btn}</button>
       </Link>
     </section>

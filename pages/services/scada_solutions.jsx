@@ -11,7 +11,7 @@ import it from "@/locales/pages/services/it";
 import servicesClass from "./services.module.css";
 import reClass from "@/styles/reusable.module.css";
 
-function Business() {
+function Scada() {
   const router = useRouter();
 
   const { locale } = router;
@@ -20,7 +20,7 @@ function Business() {
   return (
     <section>
       <div className={reClass.containerTop}>
-        <h1>{txt.s1}</h1>
+        <h1>{txt.s5}</h1>
       </div>
 
       <div className={reClass.sPage}>
@@ -28,31 +28,15 @@ function Business() {
         {/* <p className={classes.item}>{txt.p1}</p>
         <p className={`${classes.item} ${classes.newPitem}`}>{txt.p2}</p>
         <p className={classes.item}>{txt.p3}</p> */}
-
         <div className={servicesClass.infoCart}>
-          <h2 className={reClass.subTitle}>{txt.s1t1}</h2>
+          <h2 className={reClass.subTitle}>{txt.title}</h2>
 
-          <p className={reClass.pStyle}>{txt.s1p1}</p>
+          <p className={reClass.pStyle}>{txt.s5p1}</p>
         </div>
-
-        <div className={servicesClass.infoCart}>
-          <h2 className={reClass.subTitle}>{txt.s1t2}</h2>
-
-          <span>{txt.s1ListTitle}:</span>
-          <ul className={servicesClass.list}>
-            <li>{txt.s1ListElement1}</li>
-            <li>{txt.s1ListElement2}</li>
-            <li>{txt.s1ListElement3}</li>
-            <li>{txt.s1ListElement4}</li>
-            <li>{txt.s1ListElement5}</li>
-            <li>{txt.s1ListElement6}</li>
-          </ul>
-        </div>
-
-
+        
         <h2 className={reClass.subTitle}>{txt.servicesTitle}</h2>
 
-        <p><MdDone style={{ display: "inline-block", position: "relative", top: "-3px", marginRight: "5px", fontSize: "20px", minWidth: "15px"}} /> {txt.projectS1p1}</p>
+        <p><MdDone style={{ display: "inline-block", position: "relative", top: "-3px", marginRight: "5px", fontSize: "20px", minWidth: "15px"}} />{txt.projectS5p1}</p>
 
         {/* <span className={reClass.itemList}><BsCircleFill style={{marginRight: "5px", fontSize: "10px", minWidth: "20px"}}  />{txt.s1}</span>        <span className={reClass.itemList}><BsCircleFill style={{marginRight: "5px", fontSize: "10px", minWidth: "20px"}}  />{txt.s2}</span>        <span className={reClass.itemList}><BsCircleFill style={{marginRight: "5px", fontSize: "10px", minWidth: "20px"}}  />{txt.s3}</span>        <span className={reClass.itemList}><BsCircleFill style={{marginRight: "5px", fontSize: "10px", minWidth: "20px"}}  />{txt.s4}</span>        <span className={reClass.itemList}><BsCircleFill style={{marginRight: "5px", fontSize: "10px", minWidth: "20px"}}  />{txt.s5}</span>        <span className={reClass.itemList}><BsCircleFill style={{marginRight: "5px", fontSize: "10px", minWidth: "20px"}}  />{txt.s6}</span>        <span className={reClass.itemList}><BsCircleFill style={{marginRight: "5px", fontSize: "10px", minWidth: "20px"}}  />{txt.s7}</span>        <span className={reClass.itemList}><BsCircleFill style={{marginRight: "5px", fontSize: "10px", minWidth: "20px"}}  />{txt.s8}</span> */}
         
@@ -68,4 +52,4 @@ function Business() {
   );
 }
 
-export default Business;
+export default Scada;
