@@ -40,7 +40,6 @@ export default {
   projectS3p1: "Executing automated movements in logistics facilities: from pick and place AGV. Automated storage and transportation solutions integrated into the existing material flow process and is used as a sequencing buffer such as roller conveyors for boxes, for order totes prior to shipping.",  
   projectS3p2: "PLC interprets the information received from a superior software program (Warehouse Control System WCS) and execute the movements of the automated machines. Control goods outflows and the management of locations. It governs the movements of any automated element: from stacker cranes for pallets to the picking conveyors.",
 
-
   s4: "Design and commissioning CCTV system",
   s4p1: "Identify CCTV coverage needs and deploy design and on field solution.",
   s4p2: "IP/TCP network bandwidth calculation.",
