@@ -1,13 +1,13 @@
 export default {
   title: "Overview",
 
-  servicesTitle:"Projects",
+  servicesTitle:"Projects associated with this service",
 
 
 
   s1: "Business Development for successful Telecommunication Infrastructure and ICT",
 
-  s1t1: "Integrated Engineering Services for Rail",
+  s1t1: "Integrated Engineering Services for Rail.",
   s1p1: "Phad practice offers engineering services in various areas of rail technology, including design, development, testing, deployment and support. Our domain expertise spans: ERTMS, CBTC and asset management.",
 
 
@@ -27,7 +27,7 @@ export default {
   s2: "Cybersecurity Assessment",
 
   s2p1: "Remote verification of security stance and infrastructure through penetration testing and vulnerability assessment.",  
-  s2p2: "Provide consultancy services for Security Governance, for Conformity Assessments and Security Assessments for data and application protection.",
+  s2p2: "Provide consultancy services for Security Governance, for Conformity Assessments and Security Assessments (for data and application protection).",
 
   projectS2p1: "Phad support via WESETH platform /client to Consulthink on Vehicles and Telco Infrastructure for penetration testing, security requirements validation, diagnostic and repair, continuous assessment.",
 
@@ -36,7 +36,7 @@ export default {
 
 
   s3: "PLC SW Development",
-  s3p1: "We design and integrate new SCADA and PLC systems using hardware and software from manufacturers like Rockwell, Allen-Bradley, Emerson, Inductive Automation/Ignition. We implement SCADA systems that enable safe, remote operations for every applicable industry, including Transportation, Oil &amp; Gas, Energy/Utility and Water/Wastewater.",
+  s3p1: "We design and integrate new SCADA and PLC systems using hardware and software from manufacturers like Rockwell, Allen-Bradley, Emerson, Inductive Automation/Ignition. We implement SCADA systems that enable safe, remote operations for every applicable industry, including Transportation, Oil & Gas, Energy/Utility and Water/Wastewater.",
   projectS3p1: "Executing automated movements in logistics facilities: from pick and place AGV. Automated storage and transportation solutions integrated into the existing material flow process and is used as a sequencing buffer such as roller conveyors for boxes, for order totes prior to shipping.",  
   projectS3p2: "PLC interprets the information received from a superior software program (Warehouse Control System WCS) and execute the movements of the automated machines. Control goods outflows and the management of locations. It governs the movements of any automated element: from stacker cranes for pallets to the picking conveyors.",
 

@@ -44,9 +44,9 @@ function About() {
 
       <div className={classes.imgCont}>
         <Image 
-          src="/images/aboutUs.png"
+          src="/images/aboutUs.jpg"
           width={500}
-          height={500}
+          height={20}
           alt="About us"
         />
       </div>
