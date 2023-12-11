@@ -22,6 +22,13 @@ function Header() {
   const [sClicked, handleSClick] = useState({
     nav: false
   });  
+  const [sideSclicked, handleSideSClick] = useState({
+    nav: false
+  });
+
+  const handleClickSideSFn = () => {
+    handleSideSClick(prev => ({ nav: !prev.nav }));  
+  };
 
   const handleClickFn = () => {
     handleSClick({ nav: false});
@@ -58,7 +65,7 @@ function Header() {
       </nav>
     </header>
     <ServicesNav txt={txt} open={sClicked} handleClick={handleSClickFn} />
-    <SideNav cssClass={clicked.nav ? classes.sideNavOpen : classes.sideNavClose} handleClick={handleClickFn} />
+    <SideNav cssClass={clicked.nav ? classes.sideNavOpen : classes.sideNavClose} handleClick={handleClickFn} servicesNav={sideSclicked.nav} servicesFn={handleClickSideSFn} />
     </>
   );
 }

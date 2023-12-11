@@ -11,3 +11,14 @@
 .link:hover {
   border-bottom: solid var(--color-1) .1rem;
 }
+
+.servicesContainer {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s ease-in-out;
+}
+
+.servicesContainerClose {
+  display: none;
+  transform: translateX(-45rem);
+}

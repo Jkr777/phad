@@ -11,7 +11,6 @@ function ServicesNav({txt, open, handleClick}) {
       <Link onClick={handleClick} href="/services/physical_security" className={classN.link}>{txt.service4}</Link>
       <Link onClick={handleClick} href="/services/scada_solutions" className={classN.link}>{txt.service5}</Link>
       <Link onClick={handleClick} href="/services/telecommunications" className={classN.link}>{txt.service6}</Link>
-
     </nav>
   );
 }
