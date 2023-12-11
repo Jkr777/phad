@@ -5,7 +5,7 @@ export default {
 
   p2:"Sin dall’inizio della propria attività imprenditoriale la Phad si è impegnata a servire servizi professionali di alto contenuto tecnologico e con forti potenzialità di crescita per tutti quei clienti stimolati da tali iniziative.",
 
-  p3: "AAll’inizio del 2022 Phad ha sentito l’esigenza di espandersi a proporre servizi ICT alle imprese impegnate nei mercati dove sono richieste competenze nell’integrazione di sistemi e conoscenze di ambiti specifici per supportare i General Contractor EPC.",
+  p3: "All’inizio del 2022 Phad ha sentito l’esigenza di espandersi a proporre servizi ICT alle imprese impegnate nei mercati dove sono richieste competenze nell’integrazione di sistemi e conoscenze di ambiti specifici per supportare i General Contractor EPC.",
 
   p4:"Questo è stato possibile inserendo in azienda figure professionali di maturata esperienza di contract e project management e nello stesso tempo significativa esperienza nella implementazione di progetti di ingegneria con sistemi complessi su scala medio-grande per organizzazioni multinazionali.",
 
