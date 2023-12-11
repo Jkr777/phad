@@ -1,5 +1,5 @@
 export default {
-  title: "Chi siamo",
+  title: "Visione",
   
   p1:"Phad è una azienda fondata nel 2017 da due ingegneri specializzati nelle telecomunicazioni con oltre 20 anni di esperienza lavorativa presso aziende multinazionali operanti nel campo della fornitura di servizi professionali per operatori di telecomunicazioni mobile nazionali ed internazionali e per industrie all’avanguardia.",
 
