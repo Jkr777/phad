@@ -32,11 +32,13 @@ function Header() {
 
   const handleClickFn = () => {
     handleSClick({ nav: false});
+    handleSideSClick({ nav: false});
     handleClick(prev => ({ nav: !prev.nav }));  
   }
   
   const handleSClickFn = () => {
     handleClick({ nav: false });  
+    handleSideSClick({ nav: false});
     handleSClick(prev => ({ nav: !prev.nav }));
   }
 
